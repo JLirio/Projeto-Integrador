@@ -52,3 +52,4 @@ insert into O_trabalho(tema, descricao, valor, experiencia, tipo_trampos_id)valu
 select * from O_trabalho;
 
 select * from O_trabalho inner join  Tipos_trabalho on Tipos_trabalho.id = O_trabalho.tipo_trampos_id;
+-- fim
